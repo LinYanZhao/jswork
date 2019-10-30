@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>林扬召的网页计算机</title>
+    <title>林扬召的网页计算器</title>
 </head>
 <body>
     <p>整数1：<input type="text" id="num1"></p>
@@ -12,11 +13,11 @@
         <input type="button" value="相乘" onclick="calc(mul)">
         <input type="button" value="相除" onclick="calc(div)">
     </p>
-    <p>结果:<input type="text" id="result" readonly></p>
+    <p>结果：<input type="text" id="result"></p>
     <p>哥德巴赫猜想</p>
-    <p>请输入一个大于2的偶数: <input type="text" id="odd" ></p>
+    <p>请输入一个大于2的偶数：<input type="text" id="odd"></p>
     <input type="button" value="找素数" onclick="goldbach()">
-    <div id="globach"></div>
+    <div id="goldbach"></div>
 </body>
 <script src="index.js"></script>
 <script src="goldbach.js"></script>
