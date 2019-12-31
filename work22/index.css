@@ -1,9 +1,9 @@
-.title{
+.title {
     text-align: center;
-    font-style: 40px;
+    font-size: 40px;
 }
 
-.main{
+.main {
     margin: 10px auto;
     padding: 20px;
     background: #eee;
@@ -17,8 +17,8 @@
 }
 
 .main table td {
-    border:2px outset #eee;
-    font-style: 20px;
+    border: 2px outset #eee;
+    font-size: 20px;
     width: 32px;
     height: 32px;
     text-align: center;
@@ -28,10 +28,11 @@
 .main table td:hover {
     background-color: #aaa;
 }
-.main #operation{
+
+.main #operation {
     width: 180px;
-   float: right;
-   text-align: center;
+    float: right;
+    text-align: center;
 }
 
 .landMine {
@@ -42,30 +43,30 @@
 
 .main table td.normal {
     border: 2px solid #eee;
-    background-color: #AAA;
+    background-color: #aaa;
 }
 
-.main table td.normal:hover{
-    background-color: #AAA;
+.main table td.normal:hover {
+    background-color: #aaa;
 }
 
 .flag {
     background-image: url(flag.png);
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
-.main:after{
+.main:after {
     clear: both;
     display: block;
     content: "";
-    height: 0;
     line-height: 0;
+    height: 0;
     visibility: hidden;
 }
 
 .main .tip {
-    font-style: 14px;
+    font-size: 14px;
     margin: 5px;
 }
 
@@ -74,8 +75,8 @@
     line-height: 20px;
 }
 
-.main .light{
-    font-style: 30px;
+.main .light {
+    font-size: 30px;
 }
 
 .main .red {
@@ -83,7 +84,7 @@
 }
 
 .main .f60 {
-    color: #F60;
+    color: #f60;
 }
 
 .main input[type=button] {
